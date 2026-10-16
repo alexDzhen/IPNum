@@ -1,10 +1,5 @@
 # ipnum
 
-[![CI](https://github.com/alexDzhen/ipnum/actions/workflows/ci.yml/badge.svg)](https://github.com/alexDzhen/ipnum/actions/workflows/ci.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)
-![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20Windows-lightgrey.svg)
-
 A small command-line tool that converts an IPv4 or IPv6 address to its numeric value.
 
 *Български: [README.bg.md](README.bg.md)*
@@ -35,7 +30,7 @@ You need CMake 3.20 or newer and a C++17 compiler.
 **Linux**
 
 ```sh
-git clone https://github.com/alexDzhen/ipnum.git
+git clone https://github.com/alexDzhen/IPNum.git
 cd ipnum
 ./scripts/build.sh
 ./build/ipnum 192.168.1.1
@@ -47,7 +42,7 @@ Install Visual Studio 2022 with the "Desktop development with C++" workload and 
 the commands in "Developer PowerShell for VS 2022", where `cmake` is already available.
 
 ```powershell
-git clone https://github.com/alexDzhen/ipnum.git
+git clone https://github.com/alexDzhen/IPNum.git
 cd ipnum
 powershell -ExecutionPolicy Bypass -File scripts\build.ps1
 .\build\Release\ipnum.exe 192.168.1.1

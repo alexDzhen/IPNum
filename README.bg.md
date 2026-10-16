@@ -30,7 +30,7 @@ Binary   : 11000000.10101000.00000001.00000001
 **Linux**
 
 ```sh
-git clone https://github.com/alexDzhen/ipnum.git
+git clone https://github.com/alexDzhen/IPNum.git
 cd ipnum
 ./scripts/build.sh
 ./build/ipnum 192.168.1.1
@@ -42,7 +42,7 @@ cd ipnum
 изпълнете командите в "Developer PowerShell for VS 2022", където `cmake` е наличен.
 
 ```powershell
-git clone https://github.com/alexDzhen/ipnum.git
+git clone https://github.com/alexDzhen/IPNum.git
 cd ipnum
 powershell -ExecutionPolicy Bypass -File scripts\build.ps1
 .\build\Release\ipnum.exe 192.168.1.1
